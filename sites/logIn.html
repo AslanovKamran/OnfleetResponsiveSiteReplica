@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/logInStyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Onfleet|Log in</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header_container">
+                <div class="header_body">
+                    <a href="/sites/mainPage.html" class="header_logo">
+                        <img src="/images/MainPage/Logo.svg" alt="">
+                    </a>
+
+                    <div class="header_burger">
+                        <span></span>
+                    </div>
+
+                    <nav class="header_menu">
+                        <ul class="header_list">
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="" class="header_link">Features</a>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="" class="header_link">Pricing</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="/sites/customers.html" class="header_link">Customers</a>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="" class="header_link">Careers</a>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="" class="header_link">Contacts</a>
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="" class="sign_up_link">Sign up</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="header_list_element">
+                                    <a href="/sites/logIn.html" class="log_in_link">Log in</a>
+
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="container">
+            <div class="signIn">
+                <div class="signIn_img">
+                    <img src="/images/LogIn/LogInLogoPurple.svg" alt="">
+                </div>
+
+                <div class="signIn_head">
+                    <h1>Log in</h1>
+                </div>
+
+                <div class="signIn_main">
+                    <p>
+                        Access your Onfleet Dashboard
+                    </p>
+                </div>
+
+                <div class="signIn_form">
+                    <form class="form">
+                        <p id="email">Email address</p>
+                        <input id="myInput" placeholder="jane@abcdeliveries.com">
+                    </form>
+                </div>
+
+                <div class="signIn_remember">
+                    <input type="checkbox" id="check" onclick="CheckFunction()" name="remember">
+                    <label id="checkLabel" for="check">Remember me...</label>
+                </div>
+
+                <div class="signIn_footer">
+                    <div class="signIn_footer_terms">
+                        <p>
+                            By continuing, you agree to our
+                            <span>
+                                <a href="">
+                                    terms of service
+                                </a>
+                            </span>
+                            and
+                            <span>
+                                <a href="">
+                                    privacy policy
+                                </a>
+                            </span>
+                        </p>
+                    </div>
+                    <div class="signIn_footer_button">
+                        <a onclick="NextClick()" href="">
+                            <p>
+                                Next
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="signUp">
+                    <p>Don’t have an account? Sign up for a
+                        <span>
+                            <a href="">
+                                free trial.
+                    </p>
+                    </a>
+
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+
+
+            <div class="footer_container">
+                <div class="left">
+                    <div class="left_inner">
+
+                        <div class="left_inner_logo">
+                            <img src="/images/MainPage/Logo.svg" alt="">
+                        </div>
+
+                        <div class="left_inner_rights">
+                            <p style="color: white; font-size: 15px;">
+                                Onfleet, Inc. © 2022. All rights reserved.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="rigt">
+
+                    <p class="list_item">Terms of Service</p>
+                    <p class="list_item">Privacy Policy</p>
+                    <p class="list_item">CCPA Notice</p>
+
+                    <a class="list_button" href="">
+                        Log in
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="/scripts/logInScript.js"></script>
+</body>
+
+</html>

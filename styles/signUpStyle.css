@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Poppins;
+
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+
+}
+
+ul,
+li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+html::-webkit-scrollbar-thumb {
+    background-color: #CDB0FF;
+    ;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #bb98f8;
+}
+
+html::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+
+
+
+
+
